@@ -1,1 +1,1897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="VARPA — Discover timeless rings, necklaces, bracelets, earrings and pendants crafted with elegance."
+  >
+
+  <meta name="theme-color" content="#080806">
+
+  <title>VARPA | Crafted to Become Timeless</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- PAGE LOADER -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+
+      <div class="loader-logo">
+        VARPA
+      </div>
+
+      <div class="loader-line">
+        <span></span>
+      </div>
+
+      <p>
+        Crafting timeless elegance
+      </p>
+
+    </div>
+  </div>
+
+  <!-- BACKGROUND EFFECTS -->
+  <div class="background-effects">
+    <div class="gold-glow glow-one"></div>
+    <div class="gold-glow glow-two"></div>
+    <div class="noise-layer"></div>
+  </div>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+
+    <div class="announcement-track">
+
+      <span>
+        Complimentary delivery on signature pieces
+      </span>
+
+      <span class="announcement-symbol">
+        ✦
+      </span>
+
+      <span>
+        Private virtual consultation available
+      </span>
+
+      <span class="announcement-symbol">
+        ✦
+      </span>
+
+      <span>
+        Crafted to become timeless
+      </span>
+
+    </div>
+
+  </div>
+
+  <!-- HEADER -->
+  <header class="main-header" id="mainHeader">
+
+    <nav class="navbar">
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <a
+        href="#home"
+        class="brand-logo"
+        aria-label="VARPA home"
+      >
+        VARPA
+      </a>
+
+      <div class="desktop-navigation">
+
+        <a
+          href="#home"
+          class="nav-link active"
+        >
+          Home
+        </a>
+
+        <a
+          href="#collections"
+          class="nav-link"
+        >
+          Collections
+        </a>
+
+        <a
+          href="#signature"
+          class="nav-link"
+        >
+          Signature
+        </a>
+
+        <a
+          href="#craftsmanship"
+          class="nav-link"
+        >
+          Craftsmanship
+        </a>
+
+        <a
+          href="#story"
+          class="nav-link"
+        >
+          Our Story
+        </a>
+
+      </div>
+
+      <div class="nav-actions">
+
+        <button
+          class="nav-icon search-button"
+          aria-label="Search"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <button
+          class="nav-icon wishlist-button"
+          aria-label="Wishlist"
+        >
+          <i class="fa-regular fa-heart"></i>
+
+          <span class="action-count">
+            0
+          </span>
+        </button>
+
+        <button
+          class="nav-icon bag-button"
+          aria-label="Shopping bag"
+        >
+          <i class="fa-solid fa-bag-shopping"></i>
+
+          <span
+            class="action-count"
+            id="bagCount"
+          >
+            0
+          </span>
+        </button>
+
+      </div>
+
+    </nav>
+
+    <!-- MOBILE NAVIGATION -->
+    <div
+      class="mobile-navigation"
+      id="mobileNavigation"
+    >
+
+      <div class="mobile-menu-top">
+
+        <span>
+          Explore VARPA
+        </span>
+
+        <button
+          class="mobile-menu-close"
+          id="mobileMenuClose"
+          aria-label="Close navigation menu"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+      </div>
+
+      <div class="mobile-menu-links">
+
+        <a href="#home" class="mobile-link">
+          Home
+        </a>
+
+        <a href="#collections" class="mobile-link">
+          Collections
+        </a>
+
+        <a href="#signature" class="mobile-link">
+          Signature
+        </a>
+
+        <a href="#craftsmanship" class="mobile-link">
+          Craftsmanship
+        </a>
+
+        <a href="#story" class="mobile-link">
+          Our Story
+        </a>
+
+      </div>
+
+      <div class="mobile-menu-footer">
+
+        <p>
+          Follow the world of VARPA
+        </p>
+
+        <div class="social-links">
+
+          <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="Pinterest">
+            <i class="fa-brands fa-pinterest-p"></i>
+          </a>
+
+          <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section
+      class="hero-section"
+      id="home"
+    >
+
+      <video
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+      >
+        <source
+          src="videos/varpa-hero.mp4"
+          type="video/mp4"
+        >
+      </video>
+
+      <div class="hero-overlay"></div>
+      <div class="hero-gradient"></div>
+
+      <div class="hero-content">
+
+        <p class="eyebrow reveal-text">
+          The Art of Eternal Beauty
+        </p>
+
+        <h1 class="hero-title">
+
+          <span class="title-line">
+            Crafted to
+          </span>
+
+          <span class="title-line title-italic">
+            Become Timeless.
+          </span>
+
+        </h1>
+
+        <p class="hero-description">
+          Jewellery designed beyond seasons, created for the moments
+          that become a part of your story.
+        </p>
+
+        <div class="hero-actions">
+
+          <a
+            href="#collections"
+            class="primary-button"
+          >
+            <span>
+              Explore Collections
+            </span>
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+          <button
+            class="video-control"
+            id="heroVideoControl"
+          >
+            <i class="fa-solid fa-pause"></i>
+
+            <span>
+              Pause Film
+            </span>
+          </button>
+
+        </div>
+
+      </div>
+
+      <div class="hero-side-text">
+
+        <span>
+          VARPA
+        </span>
+
+        <span class="side-line"></span>
+
+        <span>
+          EST. 2026
+        </span>
+
+      </div>
+
+      <a
+        href="#introduction"
+        class="scroll-indicator"
+      >
+
+        <span>
+          Scroll to discover
+        </span>
+
+        <div class="scroll-line">
+          <span></span>
+        </div>
+
+      </a>
+
+  </section>
+      <!-- INTRODUCTION SECTION -->
+    <section
+      class="introduction-section section-padding"
+      id="introduction"
+    >
+
+      <div class="section-container">
+
+        <div class="intro-number">
+          <span>01</span>
+        </div>
+
+        <div class="intro-content">
+
+          <p class="section-label">
+            House of VARPA
+          </p>
+
+          <h2 class="intro-heading">
+            A celebration of
+            <em>individuality, artistry</em>
+            and enduring elegance.
+          </h2>
+
+          <p class="intro-description">
+            Every VARPA creation is shaped by precision,
+            imagination and a desire to turn precious materials
+            into meaningful expressions of identity.
+          </p>
+
+        </div>
+
+        <div class="intro-symbol">
+          <span>V</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- COLLECTIONS SECTION -->
+    <section
+      class="collections-section section-padding"
+      id="collections"
+    >
+
+      <div class="section-heading">
+
+        <div>
+
+          <p class="section-label">
+            Discover Our World
+          </p>
+
+          <h2>
+            Curated Collections
+          </h2>
+
+        </div>
+
+        <a
+          href="#signature"
+          class="text-link"
+        >
+          View all pieces
+
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+      </div>
+
+
+      <div class="collections-grid">
+
+        <!-- DIAMOND RING -->
+        <article class="collection-card large-card">
+
+          <div class="collection-media">
+
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="images/ring-01.webp"
+            >
+
+              <source
+                src="videos/diamond-ring-showcase.mp4"
+                type="video/mp4"
+              >
+
+            </video>
+
+            <div class="collection-overlay"></div>
+
+          </div>
+
+          <div class="collection-number">
+            01
+          </div>
+
+          <div class="collection-content">
+
+            <p>
+              Symbols of Forever
+            </p>
+
+            <h3>
+              Diamond Rings
+            </h3>
+
+            <a
+              href="#products"
+              class="collection-link"
+            >
+              Explore rings
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- ROYAL NECKLACE -->
+        <article class="collection-card">
+
+          <div class="collection-media">
+
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="images/necklace-01.webp"
+            >
+
+              <source
+                src="videos/royal-necklace-showcase.mp4"
+                type="video/mp4"
+              >
+
+            </video>
+
+            <div class="collection-overlay"></div>
+
+          </div>
+
+          <div class="collection-number">
+            02
+          </div>
+
+          <div class="collection-content">
+
+            <p>
+              Royal Expressions
+            </p>
+
+            <h3>
+              Necklaces
+            </h3>
+
+            <a
+              href="#products"
+              class="collection-link"
+            >
+              Explore necklaces
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- METAL BRACELET -->
+        <article class="collection-card">
+
+          <div class="collection-media">
+
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="images/bracelet-01.webp"
+            >
+
+              <source
+                src="videos/metal-bracelet-showcase.mp4"
+                type="video/mp4"
+              >
+
+            </video>
+
+            <div class="collection-overlay"></div>
+
+          </div>
+
+          <div class="collection-number">
+            03
+          </div>
+
+          <div class="collection-content">
+
+            <p>
+              Modern Sculptures
+            </p>
+
+            <h3>
+              Bracelets
+            </h3>
+
+            <a
+              href="#products"
+              class="collection-link"
+            >
+              Explore bracelets
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- DIAMOND EARRINGS -->
+        <article class="collection-card">
+
+          <div class="collection-media">
+
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="images/earrings-01.webp"
+            >
+
+              <source
+                src="videos/diamond-earrings-showcase.mp4"
+                type="video/mp4"
+              >
+
+            </video>
+
+            <div class="collection-overlay"></div>
+
+          </div>
+
+          <div class="collection-number">
+            04
+          </div>
+
+          <div class="collection-content">
+
+            <p>
+              Light in Motion
+            </p>
+
+            <h3>
+              Earrings
+            </h3>
+
+            <a
+              href="#products"
+              class="collection-link"
+            >
+              Explore earrings
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- GOLD PENDANT -->
+        <article class="collection-card wide-card">
+
+          <div class="collection-media">
+
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="images/pendant-01.webp"
+            >
+
+              <source
+                src="videos/gold-pendant-showcase.mp4"
+                type="video/mp4"
+              >
+
+            </video>
+
+            <div class="collection-overlay"></div>
+
+          </div>
+
+          <div class="collection-number">
+            05
+          </div>
+
+          <div class="collection-content">
+
+            <p>
+              Quiet Luxury
+            </p>
+
+            <h3>
+              Golden Pendants
+            </h3>
+
+            <a
+              href="#products"
+              class="collection-link"
+            >
+              Explore pendants
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+  </section>
+      <!-- SIGNATURE COLLECTION FILM -->
+    <section
+      class="signature-film-section"
+      id="signature"
+    >
+
+      <video
+        class="signature-film"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+      >
+
+        <source
+          src="videos/varpa-collection.mp4"
+          type="video/mp4"
+        >
+
+      </video>
+
+      <div class="signature-film-overlay"></div>
+
+      <div class="signature-film-content">
+
+        <p class="section-label">
+          The Signature Collection
+        </p>
+
+        <h2>
+          Designed to remain
+          <em>unforgettable.</em>
+        </h2>
+
+        <p>
+          Distinctive forms, precious materials and refined
+          craftsmanship come together in VARPA's signature collection.
+        </p>
+
+        <a
+          href="#products"
+          class="light-button"
+        >
+
+          <span>
+            Discover Signature Pieces
+          </span>
+
+          <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- PRODUCT SHOWCASE -->
+    <section
+      class="products-section section-padding"
+      id="products"
+    >
+
+      <div class="section-heading centered-heading">
+
+        <div>
+
+          <p class="section-label">
+            Selected For You
+          </p>
+
+          <h2>
+            Signature Pieces
+          </h2>
+
+        </div>
+
+        <p>
+          A refined selection of jewellery made to accompany
+          your most meaningful moments.
+        </p>
+
+      </div>
+
+
+      <div class="product-grid">
+
+        <!-- PRODUCT 1: RING -->
+        <article
+          class="product-card"
+          data-product="Eterna Diamond Ring"
+          data-price="₹1,28,000"
+        >
+
+          <div class="product-image-wrapper">
+
+            <span class="product-badge">
+              New
+            </span>
+
+            <button
+              class="wishlist-toggle"
+              aria-label="Add Eterna Diamond Ring to wishlist"
+            >
+
+              <i class="fa-regular fa-heart"></i>
+
+            </button>
+
+            <img
+              src="images/ring-01.webp"
+              alt="VARPA Eterna diamond ring"
+              loading="lazy"
+            >
+
+            <div class="product-actions">
+
+              <button class="quick-view-button">
+                Quick View
+              </button>
+
+              <button class="add-to-bag-button">
+                Add to Bag
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="product-details">
+
+            <p class="product-category">
+              Diamond Ring
+            </p>
+
+            <h3>
+              Eterna
+            </h3>
+
+            <div class="product-meta">
+
+              <span>
+                18K Champagne Gold
+              </span>
+
+              <strong>
+                ₹1,28,000
+              </strong>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 2: NECKLACE -->
+        <article
+          class="product-card"
+          data-product="Aurelia Royal Necklace"
+          data-price="₹2,86,000"
+        >
+
+          <div class="product-image-wrapper">
+
+            <span class="product-badge">
+              Signature
+            </span>
+
+            <button
+              class="wishlist-toggle"
+              aria-label="Add Aurelia Royal Necklace to wishlist"
+            >
+
+              <i class="fa-regular fa-heart"></i>
+
+            </button>
+
+            <img
+              src="images/necklace-01.webp"
+              alt="VARPA Aurelia royal necklace"
+              loading="lazy"
+            >
+
+            <div class="product-actions">
+
+              <button class="quick-view-button">
+                Quick View
+              </button>
+
+              <button class="add-to-bag-button">
+                Add to Bag
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="product-details">
+
+            <p class="product-category">
+              Diamond Necklace
+            </p>
+
+            <h3>
+              Aurelia
+            </h3>
+
+            <div class="product-meta">
+
+              <span>
+                18K Yellow Gold
+              </span>
+
+              <strong>
+                ₹2,86,000
+              </strong>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 3: BRACELET -->
+        <article
+          class="product-card"
+          data-product="Veyra Metal Bracelet"
+          data-price="₹78,500"
+        >
+
+          <div class="product-image-wrapper">
+
+            <button
+              class="wishlist-toggle"
+              aria-label="Add Veyra Metal Bracelet to wishlist"
+            >
+
+              <i class="fa-regular fa-heart"></i>
+
+            </button>
+
+            <img
+              src="images/bracelet-01.webp"
+              alt="VARPA Veyra metal bracelet"
+              loading="lazy"
+            >
+
+            <div class="product-actions">
+
+              <button class="quick-view-button">
+                Quick View
+              </button>
+
+              <button class="add-to-bag-button">
+                Add to Bag
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="product-details">
+
+            <p class="product-category">
+              Metal Bracelet
+            </p>
+
+            <h3>
+              Veyra
+            </h3>
+
+            <div class="product-meta">
+
+              <span>
+                Titanium & Rose Gold
+              </span>
+
+              <strong>
+                ₹78,500
+              </strong>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 4: EARRINGS -->
+        <article
+          class="product-card"
+          data-product="Celestia Diamond Earrings"
+          data-price="₹94,000"
+        >
+
+          <div class="product-image-wrapper">
+
+            <button
+              class="wishlist-toggle"
+              aria-label="Add Celestia Diamond Earrings to wishlist"
+            >
+
+              <i class="fa-regular fa-heart"></i>
+
+            </button>
+
+            <img
+              src="images/earrings-01.webp"
+              alt="VARPA Celestia diamond earrings"
+              loading="lazy"
+            >
+
+            <div class="product-actions">
+
+              <button class="quick-view-button">
+                Quick View
+              </button>
+
+              <button class="add-to-bag-button">
+                Add to Bag
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="product-details">
+
+            <p class="product-category">
+              Diamond Earrings
+            </p>
+
+            <h3>
+              Celestia
+            </h3>
+
+            <div class="product-meta">
+
+              <span>
+                18K White Gold
+              </span>
+
+              <strong>
+                ₹94,000
+              </strong>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 5: PENDANT -->
+        <article
+          class="product-card"
+          data-product="Solenne Gold Pendant"
+          data-price="₹56,000"
+        >
+
+          <div class="product-image-wrapper">
+
+            <span class="product-badge">
+              Limited
+            </span>
+
+            <button
+              class="wishlist-toggle"
+              aria-label="Add Solenne Gold Pendant to wishlist"
+            >
+
+              <i class="fa-regular fa-heart"></i>
+
+            </button>
+
+            <img
+              src="images/pendant-01.webp"
+              alt="VARPA Solenne gold pendant"
+              loading="lazy"
+            >
+
+            <div class="product-actions">
+
+              <button class="quick-view-button">
+                Quick View
+              </button>
+
+              <button class="add-to-bag-button">
+                Add to Bag
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="product-details">
+
+            <p class="product-category">
+              Gold Pendant
+            </p>
+
+            <h3>
+              Solenne
+            </h3>
+
+            <div class="product-meta">
+
+              <span>
+                18K Champagne Gold
+              </span>
+
+              <strong>
+                ₹56,000
+              </strong>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+  </section>
+      <!-- CRAFTSMANSHIP SECTION -->
+    <section
+      class="craftsmanship-section"
+      id="craftsmanship"
+    >
+
+      <div class="craftsmanship-video-wrapper">
+
+        <video
+          class="craftsmanship-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+        >
+
+          <source
+            src="videos/varpa-craftsmanship.mp4"
+            type="video/mp4"
+          >
+
+        </video>
+
+        <div class="craftsmanship-overlay"></div>
+
+        <button
+          class="craftsmanship-play-button"
+          id="craftsmanshipControl"
+          aria-label="Pause craftsmanship film"
+        >
+
+          <i class="fa-solid fa-pause"></i>
+
+        </button>
+
+      </div>
+
+
+      <div class="craftsmanship-content">
+
+        <p class="section-label">
+          The Hands Behind the Beauty
+        </p>
+
+        <h2>
+          Precision shaped by
+          <em>human artistry.</em>
+        </h2>
+
+        <p>
+          Every stone is selected with intention.
+          Every curve is refined by skilled hands.
+          Every final detail is examined until it meets
+          the uncompromising standards of VARPA.
+        </p>
+
+
+        <div class="craftsmanship-features">
+
+          <div class="feature-item">
+
+            <span>
+              01
+            </span>
+
+            <div>
+
+              <h3>
+                Precious Materials
+              </h3>
+
+              <p>
+                Carefully selected diamonds,
+                metals and finishes.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="feature-item">
+
+            <span>
+              02
+            </span>
+
+            <div>
+
+              <h3>
+                Master Craftsmanship
+              </h3>
+
+              <p>
+                Precision techniques guided
+                by experienced artisans.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="feature-item">
+
+            <span>
+              03
+            </span>
+
+            <div>
+
+              <h3>
+                Timeless Design
+              </h3>
+
+              <p>
+                Jewellery created beyond
+                passing trends.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <a
+          href="#story"
+          class="dark-outline-button"
+        >
+
+          <span>
+            Discover Our Craft
+          </span>
+
+          <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- BRAND STORY SECTION -->
+    <section
+      class="story-section section-padding"
+      id="story"
+    >
+
+      <div class="story-decoration">
+
+        <span>
+          V
+        </span>
+
+      </div>
+
+
+      <div class="story-content">
+
+        <p class="section-label">
+          The VARPA Philosophy
+        </p>
+
+        <h2>
+          Jewellery becomes timeless
+          when it carries
+          <em>your story.</em>
+        </h2>
+
+        <p>
+          VARPA was imagined as a modern house of jewellery
+          where artistic form meets emotional meaning.
+          Our creations are designed not simply to be worn,
+          but to be remembered.
+        </p>
+
+        <a
+          href="#newsletter"
+          class="text-link"
+        >
+
+          Read our story
+
+          <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+      </div>
+
+
+      <div class="story-statistics">
+
+        <div class="statistic-item">
+
+          <strong>
+            18K
+          </strong>
+
+          <span>
+            Fine Gold Creations
+          </span>
+
+        </div>
+
+
+        <div class="statistic-item">
+
+          <strong>
+            100%
+          </strong>
+
+          <span>
+            Crafted with Intention
+          </span>
+
+        </div>
+
+
+        <div class="statistic-item">
+
+          <strong>
+            ∞
+          </strong>
+
+          <span>
+            Designed Beyond Time
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICES SECTION -->
+    <section class="services-section">
+
+      <div class="service-item">
+
+        <i class="fa-solid fa-gem"></i>
+
+        <div>
+
+          <h3>
+            Exceptional Craftsmanship
+          </h3>
+
+          <p>
+            Every detail shaped with
+            care and precision.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="service-item">
+
+        <i class="fa-solid fa-box-open"></i>
+
+        <div>
+
+          <h3>
+            Signature Packaging
+          </h3>
+
+          <p>
+            Presented in an elegant
+            VARPA keepsake box.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="service-item">
+
+        <i class="fa-solid fa-truck-fast"></i>
+
+        <div>
+
+          <h3>
+            Insured Delivery
+          </h3>
+
+          <p>
+            Secure delivery with
+            careful tracking.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="service-item">
+
+        <i class="fa-solid fa-headset"></i>
+
+        <div>
+
+          <h3>
+            Private Assistance
+          </h3>
+
+          <p>
+            Personal guidance for
+            your perfect piece.
+          </p>
+
+        </div>
+
+      </div>
+
+            </section>
+                <!-- NEWSLETTER SECTION -->
+    <section
+      class="newsletter-section"
+      id="newsletter"
+    >
+
+      <div class="newsletter-content">
+
+        <p class="section-label">
+          Enter the World of VARPA
+        </p>
+
+        <h2>
+          Receive stories, private previews
+          and new collection releases.
+        </h2>
+
+        <form
+          class="newsletter-form"
+          id="newsletterForm"
+        >
+
+          <div class="input-group">
+
+            <label for="emailAddress">
+              Email address
+            </label>
+
+            <input
+              type="email"
+              id="emailAddress"
+              placeholder="Your email address"
+              required
+            >
+
+            <button
+              type="submit"
+              aria-label="Subscribe"
+            >
+
+              <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+          </div>
+
+          <label class="privacy-check">
+
+            <input
+              type="checkbox"
+              required
+            >
+
+            <span>
+              I agree to receive updates
+              and accept the privacy policy.
+            </span>
+
+          </label>
+
+        </form>
+
+      </div>
+
+
+      <div class="newsletter-decoration">
+
+        <span>
+          VARPA
+        </span>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+
+    <div class="footer-top">
+
+
+      <div class="footer-brand">
+
+        <a
+          href="#home"
+          class="footer-logo"
+        >
+          VARPA
+        </a>
+
+        <p>
+          Contemporary jewellery shaped by artistry,
+          emotion and timeless elegance.
+        </p>
+
+        <div class="footer-socials">
+
+          <a
+            href="#"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a
+            href="#"
+            aria-label="Pinterest"
+          >
+            <i class="fa-brands fa-pinterest-p"></i>
+          </a>
+
+          <a
+            href="#"
+            aria-label="Facebook"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a
+            href="#"
+            aria-label="YouTube"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>
+          Collections
+        </h3>
+
+        <a href="#collections">
+          Rings
+        </a>
+
+        <a href="#collections">
+          Necklaces
+        </a>
+
+        <a href="#collections">
+          Bracelets
+        </a>
+
+        <a href="#collections">
+          Earrings
+        </a>
+
+        <a href="#collections">
+          Pendants
+        </a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>
+          Client Care
+        </h3>
+
+        <a href="#">
+          Contact Us
+        </a>
+
+        <a href="#">
+          Book a Consultation
+        </a>
+
+        <a href="#">
+          Shipping & Delivery
+        </a>
+
+        <a href="#">
+          Returns & Exchanges
+        </a>
+
+        <a href="#">
+          Jewellery Care
+        </a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>
+          About VARPA
+        </h3>
+
+        <a href="#story">
+          Our Story
+        </a>
+
+        <a href="#craftsmanship">
+          Craftsmanship
+        </a>
+
+        <a href="#">
+          Materials
+        </a>
+
+        <a href="#">
+          Journal
+        </a>
+
+        <a href="#">
+          Careers
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <p>
+        ©
+        <span id="currentYear"></span>
+        VARPA. All rights reserved.
+      </p>
+
+      <div class="footer-legal">
+
+        <a href="#">
+          Privacy Policy
+        </a>
+
+        <a href="#">
+          Terms & Conditions
+        </a>
+
+        <a href="#">
+          Accessibility
+        </a>
+
+      </div>
+
+      <button
+        class="back-to-top"
+        id="backToTop"
+      >
+
+        Back to top
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+      </button>
+
+    </div>
+
+  </footer>
+
+
+  <!-- SEARCH OVERLAY -->
+  <div
+    class="search-overlay"
+    id="searchOverlay"
+  >
+
+    <button
+      class="search-close"
+      id="searchClose"
+      aria-label="Close search"
+    >
+
+      <i class="fa-solid fa-xmark"></i>
+
+    </button>
+
+
+    <div class="search-content">
+
+      <p>
+        Search VARPA
+      </p>
+
+      <form class="search-form">
+
+        <input
+          type="search"
+          placeholder="What are you looking for?"
+          aria-label="Search products"
+        >
+
+        <button
+          type="submit"
+          aria-label="Submit search"
+        >
+
+          <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+      </form>
+
+
+      <div class="popular-searches">
+
+        <span>
+          Popular:
+        </span>
+
+        <button>
+          Diamond Rings
+        </button>
+
+        <button>
+          Necklaces
+        </button>
+
+        <button>
+          Gold Pendants
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- QUICK VIEW MODAL -->
+  <div
+    class="quick-view-modal"
+    id="quickViewModal"
+  >
+
+    <div class="modal-backdrop"></div>
+
+
+    <div class="quick-view-content">
+
+      <button
+        class="quick-view-close"
+        id="quickViewClose"
+        aria-label="Close product preview"
+      >
+
+        <i class="fa-solid fa-xmark"></i>
+
+      </button>
+
+
+      <div class="quick-view-image">
+
+        <img
+          id="modalProductImage"
+          src="images/ring-01.webp"
+          alt="VARPA jewellery preview"
+        >
+
+      </div>
+
+
+      <div class="quick-view-information">
+
+        <p class="section-label">
+          VARPA Signature
+        </p>
+
+        <h2 id="modalProductName">
+          Eterna Diamond Ring
+        </h2>
+
+        <p
+          class="modal-product-price"
+          id="modalProductPrice"
+        >
+          ₹1,28,000
+        </p>
+
+        <p>
+          A refined VARPA creation shaped with
+          exceptional materials and finished with
+          meticulous attention to detail.
+        </p>
+
+        <button
+          class="primary-button modal-add-button"
+        >
+
+          <span>
+            Add to Bag
+          </span>
+
+          <i class="fa-solid fa-bag-shopping"></i>
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- NOTIFICATION -->
+  <div
+    class="notification"
+    id="notification"
+  >
+
+    <i class="fa-solid fa-check"></i>
+
+    <span>
+      Added to your VARPA bag
+    </span>
+
+  </div>
+
+
+  <!-- MAIN JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+          </html>
